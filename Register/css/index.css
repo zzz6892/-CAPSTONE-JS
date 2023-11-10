@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 40px;
+  height: 100%;
+}
+header .container .cart-login-register {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .container .cart-login-register a {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  color: #F6F6F6;
+  margin-right: 20px;
+  text-decoration: none;
+  position: relative;
+}
+header .container .cart-login-register a::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: rgb(49, 152, 247);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+header .container .cart-login-register a:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+
+.menu {
+  height: 50px;
+  background-color: #FFFFFF;
+}
+.menu .container {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.menu .container .menu-tab {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu .container .menu-tab a {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 15px;
+  position: relative;
+}
+.menu .container .menu-tab a::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: rgb(49, 152, 247);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+.menu .container .menu-tab a:hover {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+.menu .container .menu-tab a:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+
+.register {
+  width: 1280px;
+  height: 538px;
+  background-color: #FFFCFC;
+  border: 1px solid red;
+}
+.register .container {
+  width: 100%;
+}
+.register .container .register_title h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #000000;
+  text-align: center;
+  margin-top: 30px;
+}
+.register .container .register-content {
+  display: flex;
+  flex-wrap: wraps;
+}
+.register .container .register-content .form-group {
+  width: 50%;
+}
+.register .container .register-content .form-group input {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer .container img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
