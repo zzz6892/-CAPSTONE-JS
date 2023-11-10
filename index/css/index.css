@@ -96,19 +96,15 @@ header .container .cart-login-register a:hover::after {
   transition: width 0.5s;
 }
 
-.carousel{
-  display: flex;
-}
-
 .carousel .text .text-1{
   position: absolute;
   margin-top: 50px;
   font-family: Inter;
-font-size: 40px;
-font-weight: 300;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
   width: 291px;
   height: 51px;
   top: 124px;
@@ -119,11 +115,11 @@ text-align: left;
   position: absolute;
   margin-top: 50px;
   font-family: Inter;
-font-size: 20px;
-font-weight: 300;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
   width: 291px;
   height: 51px;
   top: 175px;
@@ -133,20 +129,19 @@ text-align: left;
 
 .carousel .img .img_1{
   position: absolute;
-  margin-top: 100px;
+  display: block;
+  margin-left: 50px;
   width: 821px;
   height: 392px;
-  top: 5px;
+  top: 100px;
   left: 86px
 }
 
 .carousel .img .img_2{
-  display: flex;
-  margin-top: 100px;
-  position: absolute;
-  width: 1246px;
+  display: block;
+  margin-top: 90px;
+  width: 1224px;
   height: 393px;
-  top: 107px;
   left: -22px
 }
 
@@ -159,10 +154,40 @@ text-align: left;
   left: 930px;
   background: #F8B653;
   color: #FFFFFF;
+  border: #F8B653;
   font-family: Inter;
   font-size: 20px;
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.Product{
+  margin-top: 50px;
+}
+
+.Product .product_feature{
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Product .product_feature p{
+  height: 48px;
+  top: 16px;
+  left: 476px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Product .card {
+  columns: 1;
 }
